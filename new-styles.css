@@ -1,0 +1,113 @@
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+header nav {
+    display: flex; /* Flexbox for navigation links */
+    gap: 15px; /* Add space between links */
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+header nav a:hover {
+    color: #1cf02e; /* Highlight color on hover */
+}
+
+section nav {
+    position: fixed; /* Keep nav in the corner */
+    right: 0;
+    align-items: center; /* Center the header nav horizontally */
+    color: white;
+}
+
+
+
+nav {
+    display: flex; /* Arrange links horizontally */
+    gap: 15px; /* Add space between links */
+    color: antiquewhite;
+}
+
+
+section {
+    max-width: 1500px;
+    color: aliceblue;
+    /* shape-outside: border-box; */
+    margin: 30px auto;
+    padding: 20px;
+    background: #303030;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+section h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 28px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    opacity: 0.75;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.video-container {
+    text-align: center; /* Centers the video */
+}
+
+video {
+    display: inline-block; /* Ensures the video behaves like a block-level element */
+    margin: 0 auto;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around; /* Space images evenly */
+    align-items: center;
+    gap: 20px; /* Optional spacing between images */
+    flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+}
+
+.image-gallery img {
+    max-width: 30%; /* Controls width of each image */
+    height: auto;   /* Maintains aspect ratio */
+}
+
+/* .divider {
+    width: 80%;
+    height: 2px;
+    background-color: #333;
+    margin: 30px auto; /* Center and space it */
+/*} 
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #0077b5; /* LinkedIn blue */
+    text-decoration: underline;
+}
